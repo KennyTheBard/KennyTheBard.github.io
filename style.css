@@ -1,0 +1,28 @@
+body {
+    width: 400px;
+    margin: auto
+}
+
+.content {
+    align-self: right;
+    background:#eee;
+}
+
+h1.name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2.category {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h3.entry-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+p.entry-subtitle {
+    font-size: medium;
+}

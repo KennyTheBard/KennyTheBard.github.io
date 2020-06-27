@@ -1,14 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Resume</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="Resume for Octavian Alexandru ȚECULESCU">
+        <meta name="author" content="Octavian Alexandru ȚECULESCU">
 
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-        <h1>Octavian Alexandru <b>ȚECULESCU</b></h1>
-        <h2>Experience</h2>
-        
+        <h1 class="name">Octavian Alexandru ȚECULESCU</h1>
 
-        <h2>Education</h2>
-        <h2>Projects</h2>
+        <div class="content">
+            <!-- EXPERIENCE -->
+            <div>
+                <h2 class="category">Experience</h2>
+                <div>
+                    <h3 class="entry-title">Westaco (Aug–Oct '18)</h3>
+                    <p class="entry-subtitle">Junior Software Developer</p>
+                </div>
+                
+                <div>
+                    <h3 class="entry-title">Tremend (Jul '19 - May '20)</h3>
+                    <p class="entry-subtitle">Junior Software Developer</p>
+                </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div>
+                <h2 class="category">Education</h2>
+                <div>
+                    <h3 class="entry-title">B.Eng. in Computer Engineering</h3>
+                    <p class="entry-subtitle">University Politehnica of Bucharest (2016-2020)</p>
+                </div>
+                
+                <div>
+                    <h3 class="entry-title">High School Diploma in Math & ComProg (2012-2016)</h3>
+                    <p class="entry-subtitle">”Grigore Moisil” National College</p>
+                </div>
+            </div>
+            
+            <!-- PROJECTS -->
+            <div>
+                <h2 class="category">Projects</h2>
+                <div>
+                    <h3 class="entry-title">Kromatique</h3>
+                    <p class="entry-subtitle">Image processing framework</p>
+                    <p>Go</p>
+                    <p>
+                        Kromatique is a framework for image processing that encapsulates image
+                        processing techniques and parameters in objects that can be easily used on
+                        multiple images. The keyword is ’control’, as every image effect use a parallelization
+                        mechanism that conceals its internal workings from its user, but
+                        exposes multiple control points, as injectable strategies behind an interface.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="entry-title">Waxwing</h3>
+                    <p class="entry-subtitle">Household funds management app</p>
+                    <p>Java/Android</p>
+                    <p>
+                        Using Android SDK and Firebase, the app simplifies the process of funds management
+                        through simple records insertion, filtering and statistics.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="entry-title">
+                        GoSPEL
+                    </h3>
+                    <p class="entry-subtitle">Image processing programming language</p>
+                    <p>Go</p>
+                    <p>
+                        Interpreter for custom functional programming language (Lisp/Racket inspired)
+                        designed for image processing. Designed to be easy to use and facilitate
+                        simple tweaking of images with small scripts.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="entry-title">
+                        Astrolite
+                    </h3>
+                    <p class="entry-subtitle">Web game server</p>
+                    <p>Java/Spring</p>
+                    <p>
+                        A recreation of the 2000’s game Tribal Wars as a space opera game. The
+                        server must resolve combat logic of space fleets with different kinds of ships
+                        in real time and manage resources that are generated each moment.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
     </body>
 </html>
