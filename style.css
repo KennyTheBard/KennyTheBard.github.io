@@ -1,28 +1,73 @@
-body {
-    width: 400px;
-    margin: auto
+html *
+{
+   color: #000;
+   font-family: Helvetica !important;
 }
 
-.content {
-    align-self: right;
-    background:#eee;
+body {
+    width: 600px;
+    margin: auto
 }
 
 h1.name {
     font-size: xx-large;
     font-weight: bold;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
-h2.category {
+.content {
+    align-self: right;
+    background:#eee;
+    padding: 15px;
+}
+
+.empty-space {
+    margin-top: 100px;
+}
+
+.category {
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.entry {
+    padding-bottom: 10px;
+}
+
+h2.category-title {
     font-size: x-large;
     font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
-h3.entry-title {
+p {
+    margin-bottom: 0px;
+}
+
+p.entry-title {
     font-size: large;
     font-weight: bold;
 }
 
 p.entry-subtitle {
     font-size: medium;
+}
+
+p.stack {
+    font-style: italic;
+    text-align: right;
+    position: relative;
+    bottom: 33px;
+}
+
+p.description {
+    font-size: small;
+    padding-left: 25px;
+    margin-top: -20px;
 }
